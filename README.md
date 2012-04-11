@@ -1,7 +1,7 @@
 zippy
 =====
 
-A simple Python for the Ziptastic ZIP Code API search.
+A simple Python for the Ziptastic ZIP Code API.
 
 ```python
 >>> import zippy
