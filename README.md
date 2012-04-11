@@ -14,4 +14,7 @@ A simple Python for the Ziptastic ZIP Code API search.
 
 >>> zippy.da(94155)
 {'city': 'SAN FRANCISCO', 'country': 'US', 'state': 'CA'}
+
+>>> zippy.da('94155')
+{'city': 'SAN FRANCISCO', 'country': 'US', 'state': 'CA'}
 ```
