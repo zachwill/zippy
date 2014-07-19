@@ -10,7 +10,7 @@ def do(zipcode):
     """Search for a ZIPCode."""
     if isinstance(zipcode, int):
         zipcode = str(zipcode)
-    url = "http://zip.elevenbasetwo.com/?zip=%s" % zipcode
+    url = "http://zip.getziptastic.com/v2/US/%s" % zipcode
     req = requests.get(url)
     return loads(req.content)
 
