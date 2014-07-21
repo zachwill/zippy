@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name="zippy",
-    version="0.1",
+    version="0.2",
     url="http://github.com/zachwill/zippy",
     author="Zach Williams",
     author_email="hey@zachwill.com",
